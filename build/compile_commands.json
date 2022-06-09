@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/jbekios/CODE/opencvTests/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/opencvtest.dir/Persona.cpp.o -c /home/jbekios/CODE/opencvTests/Persona.cpp",
+  "file": "/home/jbekios/CODE/opencvTests/Persona.cpp"
+},
+{
+  "directory": "/home/jbekios/CODE/opencvTests/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/opencvtest.dir/Detector.cpp.o -c /home/jbekios/CODE/opencvTests/Detector.cpp",
+  "file": "/home/jbekios/CODE/opencvTests/Detector.cpp"
+},
+{
+  "directory": "/home/jbekios/CODE/opencvTests/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/opencvtest.dir/detectPeople.cpp.o -c /home/jbekios/CODE/opencvTests/detectPeople.cpp",
+  "file": "/home/jbekios/CODE/opencvTests/detectPeople.cpp"
+}
+]

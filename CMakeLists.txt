@@ -7,7 +7,7 @@ enable_testing()
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-add_executable(opencvtest Detector.cpp detectPeople.cpp)
+add_executable(opencvtest Persona.cpp Detector.cpp detectPeople.cpp)
 
 target_link_libraries( opencvtest ${OpenCV_LIBS} )
 

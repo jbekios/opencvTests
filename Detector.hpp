@@ -9,6 +9,9 @@
 #include <iostream>
 #include <iomanip>
 
+#include "Persona.hpp"
+
+
 using namespace cv;
 using namespace std;
 
@@ -28,7 +31,7 @@ public:
 
     string modeName() const;
 
-    vector<Rect> detect(InputArray img);
+    vector<Persona> detect(InputArray img);
 
     void adjustRect(Rect & r) const;
 };

@@ -40,6 +40,10 @@ public:
             hog.detectMultiScale(img, found, 0, Size(2,2), Size(4,4), 1.05, 2, false);
         else if (m == Daimler)
             hog_d.detectMultiScale(img, found, 0, Size(4,4), Size(8,8), 1.01, 3, true);
+
+        // Convierto los objetos Rect a Persona
+        
+            
         return found;
     }
 
